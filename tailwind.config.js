@@ -2,6 +2,7 @@
 const colors = require('tailwindcss/colors');
 module.exports = {
   content: ['./index.html'],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -10,10 +11,11 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      primary: colors.emerald['600'],
-      'primary-light': colors.emerald['500'],
-      secondary: colors.slate['600'],
+      primary: colors.emerald['500'],
+      'primary-light': colors.emerald['400'],
+      secondary: colors.slate['500'],
       dark: colors.gray['900'],
+      'dark-lighter': colors.gray['800'],
       muted: colors.gray['600'],
       slate: colors.slate,
       white: colors.white,
