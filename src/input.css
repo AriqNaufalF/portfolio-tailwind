@@ -32,3 +32,15 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-4;
 }
+
+body::-webkit-scrollbar {
+  @apply w-2;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-secondary;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-primary;
+}
